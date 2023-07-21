@@ -1,0 +1,8 @@
+CREATE TABLE if not exists order_v2(
+  o_id BIGINT,
+  u_id BIGINT,
+  product_name STRING,
+  order_price STRING,
+  order_time STRING,
+  shop_id STRING
+)
